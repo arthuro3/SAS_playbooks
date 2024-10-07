@@ -3,4 +3,3 @@
 collections:
   - name: oneidentity.authentication_services
   - name: community.general
-    source: https://old-galaxy.ansible.com
