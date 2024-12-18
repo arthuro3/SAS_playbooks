@@ -5,20 +5,15 @@
   tasks: 
  
   - name: run some command  
-    command: "ls -Al /mnt1"
-    delegate_to: localhost
-
-  - name: run some command  
-    command: "ls -Al /usr/share/pki"
-    delegate_to: localhost
-
-  - name: run some command  
-    command: "touch /mnt2/hello.txt"
-    delegate_to: localhost
-
-
-  - name: run some command  
     command: "ls -Al /"
+    delegate_to: localhost
+
+  - name: run some command  
+    command: "ls -Al /mnt3"
+    delegate_to: localhost
+
+  - name: run some command  
+    command: "touch /mnt3/hello.txt"
     delegate_to: localhost
 
 
