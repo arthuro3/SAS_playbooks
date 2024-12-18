@@ -3,17 +3,9 @@
   become: false
 
   tasks: 
+ 
   - name: run some command  
-    command: "ls -Al /"
-    delegate_to: localhost
-
-  - name: run some command  
-    command: "ls -Al /var"
-    delegate_to: localhost
-
-
-  - name: run some command  
-    command: "ls -Al /var/lib"
+    command: "ls -Al /mnt1"
     delegate_to: localhost
 
   - name: run some command  
