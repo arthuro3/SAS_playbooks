@@ -13,16 +13,16 @@
     delegate_to: localhost
 
   - name: run some command  
-    command: "touch /mnt1/hello.txt"
+    command: "touch /mnt2/hello.txt"
     delegate_to: localhost
 
 
   - name: run some command  
-    command: "pwd"
+    command: "ls -Al /mnt2"
     delegate_to: localhost
 
 
   - name: first task
     ansible.builtin.copy:
       src: ./client/linux-x86_64
-      dest: /tmp/
+      dest: /mnt2
