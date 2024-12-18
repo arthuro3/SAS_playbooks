@@ -21,7 +21,7 @@
     delegate_to: localhost
 
   - name: run some command  
-    command: "ls -Al /source"
+    command: "touch /tmp/hello.txt"
     delegate_to: localhost
 
 
