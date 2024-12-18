@@ -1,6 +1,6 @@
 - name: copy packages
   hosts: all
-  become: true
+  become: false
 
   tasks: 
   - name: run some command  
