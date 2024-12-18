@@ -21,7 +21,7 @@
     delegate_to: localhost
 
   - name: run some command  
-    command: "touch /tmp/hello.txt"
+    command: "touch /mnt1/hello.txt"
     delegate_to: localhost
 
 
