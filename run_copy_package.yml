@@ -9,7 +9,7 @@
     delegate_to: localhost
 
   - name: run some command  
-    command: "ls -Al /usr/share/pki
+    command: "ls -Al /usr/share/pki"
     delegate_to: localhost
 
   - name: run some command  
