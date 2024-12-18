@@ -18,7 +18,7 @@
 
 
   - name: run some command  
-    command: "ls -Al /mnt2"
+    command: "ls -Al /"
     delegate_to: localhost
 
 
