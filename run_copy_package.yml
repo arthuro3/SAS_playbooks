@@ -12,10 +12,6 @@
     command: "ls -Al /mnt1"
     delegate_to: localhost
 
-  - name: touch hello.txt  
-    command: "touch /mnt1/hello.txt"
-    delegate_to: localhost
-    
   - name: get hostname  
     command: "cat /etc/hostname"
     delegate_to: localhost
