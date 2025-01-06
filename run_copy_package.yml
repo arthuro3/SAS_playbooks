@@ -9,11 +9,11 @@
     delegate_to: localhost
 
   - name: run some command  
-    command: "ls -Al /mnt3"
+    command: "ls -Al /mnt1"
     delegate_to: localhost
 
   - name: run some command  
-    command: "touch /mnt3/hello.txt"
+    command: "touch /mnt1/hello.txt"
     delegate_to: localhost
 
 
