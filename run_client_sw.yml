@@ -8,7 +8,7 @@
 
     # Software states
     client_sw_pkg_state:
-      vasclnt: absent
+      vasclnt: present
       # vasclnts: check 
       vasgp: absent 
       # vasgps: check 
