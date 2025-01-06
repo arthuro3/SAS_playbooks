@@ -8,11 +8,11 @@
 
     # Software states
     client_sw_pkg_state:
-      vasclnt: present
+      vasclnt: absent
       # vasclnts: check 
-      vasgp: present 
+      vasgp: absent 
       # vasgps: check 
-      vassc: present
+      vassc: absent
       # vascert: check
       # dnsupdate: check 
       # pamdefender: present
