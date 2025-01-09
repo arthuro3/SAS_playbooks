@@ -15,6 +15,10 @@
   - name: get hostname  
     command: "cat /etc/hostname"
     delegate_to: localhost
+  
+  - name: get mount hostname  
+    command: "cat /mnt1/etc/hostname"
+    delegate_to: localhost
 
 
   - name: first task
